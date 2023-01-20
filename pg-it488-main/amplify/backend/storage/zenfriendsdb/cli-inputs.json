@@ -1,0 +1,14 @@
+{
+  "resourceName": "zenfriendsdb",
+  "tableName": "zenfriendsdb",
+  "partitionKey": {
+    "fieldName": "timestamp",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "username",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

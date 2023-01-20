@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactamplified-dev-92940-authRole",
+      "UnauthRoleArn": "arn:aws:iam::382330760986:role/amplify-reactamplified-dev-92940-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::382330760986:role/amplify-reactamplified-dev-92940-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-reactamplified-dev-92940-deployment",
+      "UnauthRoleName": "amplify-reactamplified-dev-92940-unauthRole",
+      "StackName": "amplify-reactamplified-dev-92940",
+      "StackId": "arn:aws:cloudformation:us-east-2:382330760986:stack/amplify-reactamplified-dev-92940/61dd1e40-9673-11ed-803c-0291cdf0ced2",
+      "AmplifyAppId": "d1w0r7xz6dt3i7",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-reactamplified-dev-92940-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "cognitodb70c349": {}
+      },
+      "function": {
+        "testFunction": {
+          "deploymentBucketName": "amplify-reactamplified-dev-92940-deployment",
+          "s3Key": "amplify-builds/testFunction-6b49775776336b346847-build.zip"
+        },
+        "testdb": {
+          "deploymentBucketName": "amplify-reactamplified-dev-92940-deployment",
+          "s3Key": "amplify-builds/testdb-5352546865537967576d-build.zip"
+        }
+      },
+      "api": {
+        "testApi": {}
+      },
+      "storage": {
+        "zenfriendsdb": {}
+      }
+    }
+  }
+}

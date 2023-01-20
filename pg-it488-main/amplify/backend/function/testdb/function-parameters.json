@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "zenfriendsdb": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
